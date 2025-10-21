@@ -12,3 +12,9 @@ python train_manager.py
 
 ### 3) Visual demo
 python run_demo.py
+
+### Notes
+
+The worker learns how to reach a goal given [worker_xy, goal_xy].
+The manager learns what assignment (worker_id -> task_id) to issue.
+Manager acts every ASSIGN_INTERVAL steps; workers act every step.
