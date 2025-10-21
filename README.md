@@ -1,14 +1,4 @@
 # Warehouse-HMARL-Demo
 HMARL experimentations with self learning agents, low and high level decisionmakers
 
-Warehouse-HMARL-Demo/
-├── environments/           # Core environment implementations
-│   ├── worker_nav_env.py      # Single-agent goal-conditioned worker env
-│   └── warehouse_manager_env.py      # Manager env with multiple workers & tasks, uses
-├──  models/
-│   ├─ worker_ppo.zip # Saved worker policy (after training)
-│   ├─ train_worker.py # Train worker PPO
-│   ├─ train_manager.py # Train manager PPO
-│   ├─ run_demo.py # Rollout demo with trained manager+workers
-│   └──requirements.txt
-└─ README.md
+<img width="579" height="194" alt="Screenshot 2025-10-21 at 12 49 45 AM" src="https://github.com/user-attachments/assets/ef22cdb5-9b1a-4fdb-8e84-7d19859c0cf3" />
